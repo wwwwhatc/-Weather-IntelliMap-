@@ -306,7 +306,7 @@ def create_start_frame(root, show_weather_map, show_forecast):
     start_frame.grid_columnconfigure(0, weight=1)
 
     # 标题
-    title_label = ttk.Label(start_frame, text="天气查询系统", font=("Arial", 20, "bold"))
+    title_label = ttk.Label(start_frame, text="天气智图 (Weather IntelliMap)", font=("Arial", 20, "bold"))
     title_label.grid(row=0, column=0, pady=(50, 20))
 
     # 按钮
